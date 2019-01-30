@@ -3,7 +3,7 @@
         <div> Hi from todos</div>
         <!-- <h1> My Todo List </h1> -->
         <!-- this is now a data driven component
-                that outputs anything in the todos array -->
+                that outputs anything in the todos array -->>
         <div v-for="(todo, index) in mytodos" v-bind:key="index">
             <span>{{ todo.name }}</span>
             <span>{{ todo.duedate }}</span>
